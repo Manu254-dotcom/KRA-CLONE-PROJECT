@@ -1,6 +1,7 @@
 .nav-bar{
     background-color:red;
     height: 50px;
+    width: 100%;
 
 }
 .nav-bar ul{
@@ -23,6 +24,7 @@
     gap:20px;
     list-style-type: none; 
     padding-left:90px;  
+
     
 }
 .kra img{
@@ -31,14 +33,30 @@
    height: 22px;
 }
 .nav-bar2{
-    background-color:azure;
+    /* background-color:azure; */
     display: flex;
     flex-direction: rows;
     gap: 60px;
+    height: 85px;
 }
 .links-navbar{
     /* font-family: 'Barlow', sans-serif; */
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 3px;
+    
+}
+.links-navbar li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 100px;
+}
+.links2 ul li:hover links-navbar{
+    background-color: red;
+    background: red;
+}
+.links-navbar ul li:hover sublink1{
+    color: red;
+
 }
 .links2{
     padding-top: 25px;
@@ -47,13 +65,100 @@
 }
 .links2 ul li{
     display: inline-flex;
-    gap: 60px;
+    gap: 40px;
     padding-right: 40px;
 }
 .image2 img{
-    width: 250px;
+    width: 200px;
+    height: 160px;
 }
 .icon{
-    padding-left: 495px;
-    padding-top: 40px;
+    padding-left: 535px;
+    padding-top: 60px;
+}
+.sublink1{
+    display: none;
+}
+
+.krabanner img{
+    width: 100%;
+    margin-top:28px;
+}
+.krabanner{
+    position: relative;
+    display: inline-block;
+}
+.krabanner img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #585555; 
+    padding: 10px 20px; 
+    font-size: 50px; 
+    text-align: center; 
+  }
+.boxes{
+    background-color: #d2b8b7;
+    height: auto ;
+    padding-bottom: 35px;
+ 
+}
+.box1{
+    width: 400px;
+    height: 250px;
+    /* margin-left: 100px; */
+    background-color: white;
+    cursor: pointer;
+}
+.box1 :hover{
+  
+    background-color: red;
+    height: 200px;
+}
+.text1{
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.text1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.box-all{
+    gap: 30px;
+    padding-left: 120px;
+    /* padding-right: 100px;  */
+    display:flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+.foot{
+    width:100%;
+    height:300px;
+    background-color:#666 ;
+
+}
+.footer2{
+    background-color: red;
+    height:45px;
+}
+.textfooter{
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 12px;
+    font-size: 14px;
 }
